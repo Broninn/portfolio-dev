@@ -50,7 +50,7 @@ export const projects: Project[] = [
     title: "API de Restaurante",
     description: "API REST para gerenciar pedidos de restaurante",
     tech: ["TypeScript", "Node.js", "Express", "Knex", "SQLite", "Zod", "TSX"],
-    link: "https://github.com/Broninn/api-restaurante",
+    link: "https://github.com/Broninn/api-restaurant",
     project: "api",
     image: "/projects/api-restaurante.png"
   },

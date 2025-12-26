@@ -1,16 +1,17 @@
 import Image from "next/image";
 import { FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiMoodle } from "react-icons/si";
+import { SiJavascript, SiMoodle, SiTypescript } from "react-icons/si";
 
 const techs = [
   { name: "React", icon: FaReact },
   { name: "Node.js", icon: FaNodeJs },
   { name: "JavaScript", icon: SiJavascript },
+  { name: "TypeScript", icon: SiTypescript },
   { name: "GitHub", icon: FaGithub },
   { name: "Moodle", icon: SiMoodle },
 ];
 
-export default function Hero() {
+export default function HeroSection() {
   return (
     <section
       className="
