@@ -66,7 +66,6 @@ export default function ContactSection() {
         </div>
       </div>
 
-      {/* botão flutuante de WhatsApp (opcional) */}
       
       <a
         href="https://wa.me/5541991012987"
