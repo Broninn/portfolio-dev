@@ -5,6 +5,7 @@ export interface Project {
   tech: string[];
   link: string;
   project: string;
+  image: string;
 }
 
 export const projects: Project[] = [
@@ -15,6 +16,7 @@ export const projects: Project[] = [
     tech: ["React", "TypeScript", "CSS"],
     link: "https://tpsgeotecnia.com.br/",
     project: "landing",
+    image: "/projects/TPS.png"
   },
   {
     id: "2",
@@ -23,6 +25,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "Tailwind CSS"],
     link: "https://geofore.com.br/",
     project: "landing",
+    image: "/projects/Geofore.png"
   },
   {
     id: "3",
@@ -31,14 +34,16 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "CSS"],
     link: "https://aghoraengenharia.com.br/",
     project: "landing",
+    image: "/projects/Aghora.png"
   },
   {
     id: "4",
-    title: "coursecompletions",
-    description: "Plugin Moodle para analisar possiveis evasões",
+    title: "Possíveis Evasões",
+    description: "Plugin para Moodle para analisar possiveis evasões",
     tech: ["PHP"],
     link: "https://github.com/Broninn/local_coursecompletions",
     project: "moodle",
+    image: "/projects/evasao.png"
   },
   {
     id: "5",
@@ -47,5 +52,6 @@ export const projects: Project[] = [
     tech: ["TypeScript", "Node.js", "Express", "Knex", "SQLite", "Zod", "TSX"],
     link: "https://github.com/Broninn/api-restaurante",
     project: "api",
+    image: "/projects/api-restaurante.png"
   },
 ];
